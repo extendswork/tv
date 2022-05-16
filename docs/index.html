@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="manifest" crossorigin="use-credentials" href="./manifest.json">
+		<meta http-equiv="content-security-policy" content=""><title>Onlive</title><script data-svelte="svelte-bjnlvt">if (document) {
+      let mode = localStorage.theme || 'light'
+      if (mode === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark')
+        localStorage.theme = 'dark'
+      } else {
+        document.documentElement.classList.remove('dark')
+        localStorage.theme = 'light'
+      }
+    }
+  </script><meta name="description" content="Collection of resources dedicated to IPTV" data-svelte="svelte-1c745cx">
+	<link rel="stylesheet" href="/_app/assets/vendor-c8b32335.css">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-6a881379.css">
+	<link rel="stylesheet" href="/_app/assets/pages/index.svelte-fade4f59.css">
+	<link rel="modulepreload" href="/_app/start-8962c8d5.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-c2beea55.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-de35cff2.js">
+	<link rel="modulepreload" href="/_app/chunks/store-6665c617.js">
+	<link rel="modulepreload" href="/_app/pages/index.svelte-538547cb.js">
+				<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/service-worker.js');
+		}
+	</script>
+	</head>
+	<body>
+		
+
+
+
+
+
+<header class="z-40 w-full min-w-[360px] absolute" style="top: 0px"><nav class="bg-white border-b border-gray-200 px-2 sm:px-4 py-2.5 dark:border-gray-600 dark:bg-gray-800"><div class="container flex justify-between items-center max-w-6xl mx-auto px-4 sm:px-2"><div class="flex flex-start items-center basis-[24rem] shrink"><a href="/" class="flex mr-6"><span class="text-[1.15rem] text-[#24292f] self-center font-semibold whitespace-nowrap dark:text-white font-mono">Onlive</span></a>
+      </div>
+
+    <div class="flex flex-end items-center"><button type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-full text-sm p-2.5" aria-label="Toggle Dark Mode"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" role="img"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        <svg class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg></button></div></div></nav></header>
+
+<main class="bg-slate-50 dark:bg-[#1d232e] min-h-screen pt-10 min-w-[360px]">
+
+
+
+
+<section class="container max-w-5xl mx-auto px-2 py-20"><form class="mb-5"><div><label for="search-input" class="sr-only">Search</label>
+    <div class="relative mt-1"><div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none"><svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg></div>
+      <input type="search" id="search-input" class="bg-white border border-gray-300 text-gray-900 outline-blue-500 text-sm rounded-md block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Search for channels" value=""></div>
+    <p class="mt-2"><span class="inline-flex text-sm text-gray-500 dark:text-gray-400 font-mono">Found 
+        <span class="animate-spin">/</span>
+         channels</span></p></div></form>
+  <div class="flex items-center justify-center w-full pt-1 pb-6 tracking-tight text-sm text-gray-500 dark:text-gray-400 font-mono">loading...
+  </div>  </section></main>
+
+
+		<script type="module" data-hydrate="1a7dj8u">
+		import { start } from "/_app/start-8962c8d5.js";
+		start({
+			target: document.querySelector('[data-hydrate="1a7dj8u"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-de35cff2.js"),
+						import("/_app/pages/index.svelte-538547cb.js")
+				],
+				params: {},
+				routeId: ""
+			}
+		});
+	</script>
+	</body>
+</html>
