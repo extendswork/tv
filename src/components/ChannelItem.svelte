@@ -35,38 +35,17 @@
 	class="border-b last:border-b-0 border-gray-200 dark:border-gray-700 hover:bg-gray-50 hover:dark:bg-gray-700 h-16"
 >
 	<td class="pl-2 pr-4 md:pr-7">
-		<div class="inline-flex w-full align-middle justify-center whitespace-nowrap overflow-hidden">
-			{#if channel.logo}
-			<img
-				class="block align-middle mx-auto max-w-[6rem] max-h-[3rem] text-sm text-gray-400 dark:text-gray-600 cursor-default"
-				loading="lazy"
-				referrerpolicy="no-referrer"
-				src="{channel.logo}"
-				alt="{channel.name}"
-			/>
-			{/if}
-		</div>
-	</td>
-	<td class="px-2">
-		<div>
-			<a
-				on:click|preventDefault="{showChannelData}"
-				href="/"
-				rel="nofollow"
-				role="button"
-				tabindex="0"
-				class="text-left font-normal text-gray-600 dark:text-white hover:underline hover:text-blue-500"
-			>
-				{channel.name}
-			</a>
-		</div>
-	</td>
-	<td class="px-2">
-		<div>
-			<code
-				class="break-words text-sm text-gray-500 bg-gray-100 dark:text-gray-300 dark:bg-gray-700 px-2 py-1 rounded-sm select-all cursor-text font-mono"
-				>{channel.id}</code
-			>
+		<div class="flex items-center" on:click="{showStreams}">
+			<div class="flex-shrink-0">
+				<img
+					class="h-8 w-8 rounded-full"
+					src="{channel.logo}"
+					alt="{channel.name}"
+				/>
+			</div>
+			<div class="ml-3 text-gray-500 dark:text-gray-100">
+					{channel.name}
+			</div>
 		</div>
 	</td>
 	<td class="pl-2 pr-5">

@@ -14,18 +14,6 @@
 					<thead class="bg-gray-50 dark:bg-gray-700">
 						<tr>
 							<th scope="col" class="min-w-[10rem] md:w-[13rem] relative"></th>
-							<th
-								scope="col"
-								class="py-3 px-2 text-xs font-semibold tracking-wider text-left text-gray-400 uppercase dark:text-gray-400 min-w-[14rem] md:w-[18rem]"
-							>
-								Name
-							</th>
-							<th
-								scope="col"
-								class="py-3 px-2 text-xs font-semibold tracking-wider text-left text-gray-400 uppercase dark:text-gray-400 min-w-[12rem] md:w-[18rem]"
-							>
-								TVG-ID
-							</th>
 							<th scope="col" class="relative min-w-[13rem]">
 								<span class="sr-only">Actions</span>
 							</th>
